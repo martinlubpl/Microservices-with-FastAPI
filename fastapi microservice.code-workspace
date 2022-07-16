@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "payment"
+		},
+		{
+			"path": "inventory"
+		}
+	],
+	"settings": {}
+}
