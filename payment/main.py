@@ -73,3 +73,5 @@ def order_completed(order: Order):
     time.sleep(5)
     order.status = 'paid'
     order.save()
+    # event redis streams
+    redis.xadd('order_completed', order.dict(), '*')  # * for auto-id

@@ -130,3 +130,4 @@ dmypy.json
 # Pyre type checker
 .pyre/
 payment/__pycache__/main.cpython-38.pyc
+payment/__pycache__/main.cpython-38.pyc
